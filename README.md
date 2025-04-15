@@ -7,15 +7,14 @@ Proyek ini adalah bagian dari [Machine Learning Path Dicoding](https://www.dicod
 Proyek ini menggunakan pendekatan Deep Learning dengan memanfaatkan model Convolutional Neural Network (CNN) dan arsitektur Xception. Tujuan utamanya adalah membangun model yang dapat mengklasifikasikan jenis sampah secara akurat untuk mendukung pengelolaan sampah yang lebih baik.
 
 ### Fitur Utama
-- **Dataset**: Dataset yang digunakan dapat ditemukan di [Kaggle Garbage Classification Dataset](https://www.kaggle.com/datasets/mostafaabla/garbage-classification).
+- **Dataset**: Dataset yang digunakan dapat ditemukan di [Kaggle Augmented Apple Disease Dataset](https://www.kaggle.com/datasets/mostafaabla/garbage-classification).
 - **Model**: Dibangun menggunakan CNN dan Xception.
 - **Format Model**:
   - `.h5` (HDF5)
   - `SavedModel` (TensorFlow)
   - `TF-Lite` (untuk perangkat mobile)
   - `TFJS` (untuk aplikasi berbasis web)
-- **Jupyter Notebook**: Implementasi proyek tersedia di [Kaggle Notebook](https://www.kaggle.com/code/angguncaksono/submission-garbage-classification).
-
+  - 
 ## Cara Menggunakan
 
 1. **Instalasi Dependencies**
