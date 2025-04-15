@@ -1,20 +1,19 @@
 # Prorek Akhir Submission Proyek Klasifikasi Gambar
 
-Proyek ini adalah bagian dari [Machine Learning Path Dicoding](https://www.dicoding.com/learningpaths/30). Proyek ini bertujuan untuk membuat model klasifikasi gambar yang mampu mengenali jenis sampah menggunakan teknik pembelajaran mesin.
+Proyek ini adalah Submission Belajar Pengembangan Machine Learning. Proyek ini bertujuan untuk membuat model klasifikasi gambar yang mampu mengklasifikasikan penyakit pada daun apel.
 
 ## Deskripsi Proyek
 
-Proyek ini menggunakan pendekatan Deep Learning dengan memanfaatkan model Convolutional Neural Network (CNN) dan arsitektur Xception. Tujuan utamanya adalah membangun model yang dapat mengklasifikasikan jenis sampah secara akurat untuk mendukung pengelolaan sampah yang lebih baik.
+Proyek ini menggunakan pendekatan Deep Learning dengan memanfaatkan model Convolutional Neural Network (CNN), dengan  split dataset 80:10:10, menggunakan callbacks, serta konversi ke savedmodel,tflite, dan tfjs
 
 ### Fitur Utama
-- **Dataset**: Dataset yang digunakan dapat ditemukan di [Kaggle Augmented Apple Disease Dataset](https://www.kaggle.com/datasets/mostafaabla/garbage-classification).
-- **Model**: Dibangun menggunakan CNN dan Xception.
+- **Dataset**: Dataset yang digunakan dapat ditemukan di [Augmented Apple Disease Dataset](https://www.kaggle.com/datasets/rm1000/augmented-apple-disease-detection-dataset).
+- **Model**: Dibangun menggunakan CNN .
 - **Format Model**:
-  - `.h5` (HDF5)
   - `SavedModel` (TensorFlow)
   - `TF-Lite` (untuk perangkat mobile)
   - `TFJS` (untuk aplikasi berbasis web)
-  - 
+
 ## Cara Menggunakan
 
 1. **Instalasi Dependencies**
@@ -24,22 +23,16 @@ Proyek ini menggunakan pendekatan Deep Learning dengan memanfaatkan model Convol
    ```
 
 2. **Pengunduhan Dataset**
-   Unduh dataset dari [tautan ini](https://www.kaggle.com/datasets/mostafaabla/garbage-classification) dan letakkan di direktori yang sesuai.
+   Unduh dataset dari [tautan ini](https://www.kaggle.com/datasets/rm1000/augmented-apple-disease-detection-dataset) dan letakkan di direktori yang sesuai.
+
 
 3. **Training Model**
    Jalankan notebook untuk melatih model:
-   ```bash
-   jupyter notebook
-   ```
+
 
 4. **Ekspor Model**
    Model yang telah dilatih dapat diekspor ke berbagai format untuk digunakan di platform yang berbeda.
 
-## Struktur Direktori
-
-- `notebooks/`: Berisi file Jupyter Notebook untuk training dan evaluasi.
-- `models/`: Berisi model yang disimpan dalam berbagai format.
-- `data/`: Direktori tempat dataset disimpan.
 
 ## Teknologi yang Digunakan
 
@@ -49,18 +42,3 @@ Proyek ini menggunakan pendekatan Deep Learning dengan memanfaatkan model Convol
 - Scikit-learn
 - Jupyter Notebook
 
-## Kontribusi
-
-Kontribusi sangat diterima! Jika Anda ingin berkontribusi, silakan fork repository ini, buat branch baru, dan ajukan pull request.
-
-```bash
-git clone https://github.com/alrescha79-cmd/garbage-classification.git
-git checkout -b fitur-baru
-```
-
-## Author
-
-Proyek ini dibuat oleh:
-- **[Anggun Caksono](https://www.github.com/alrescha79-cmd)**
-
-Jika Anda menemukan masalah, jangan ragu untuk membuka [issue baru](https://github.com/alrescha79-cmd/garbage-classification/issues).
